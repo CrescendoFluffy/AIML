@@ -1,4 +1,5 @@
 # Write a frozenset for any tuple and dictionary.
+# Dictionary
 
 # Create a dictionary
 my_dict = {'a': 1, 'b': 2, 'c': 3}
