@@ -1,4 +1,4 @@
-# Write a code for add the following single element and multiple elements to the existing set A={2,3,4,5}:
+# Write a code to add the following single element and multiple elements to the existing set A={2,3,4,5}:
 # (i) 6, (ii) 7,8,9 and 10.
 
 # Existing set A

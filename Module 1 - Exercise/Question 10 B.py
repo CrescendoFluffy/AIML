@@ -2,10 +2,10 @@
 # Dictionary
 
 # Create a dictionary
-my_dict = {'a': 1, 'b': 2, 'c': 3}
+my_dict = {'apple': 3, 'banana': 2, 'cherry': 5, 'date': 1}
 
-# Convert the keys of the dictionary to a frozenset
-frozen_set_from_dict_keys = frozenset(my_dict.keys())
+# Convert the keys of the dictionary into a frozen set
+my_frozen_set = frozenset(my_dict.keys())
 
-# Print the frozenset
-print("Frozen set from dictionary keys:", frozen_set_from_dict_keys)
+# Print the frozen set
+print(my_frozen_set)
