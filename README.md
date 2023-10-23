@@ -1,5 +1,9 @@
 # Python - AIML
 
-## This repository is dedicated to provide answers for all the python exercise questions!
+## This repository is dedicated to providing answers to all the Python exercise questions!
 
-### 😉😎😊
+### 😉😎😊🧑‍💻
+
+## Authors
+
+- [@CrescendoFluffy](https://github.com/CrescendoFluffy)
