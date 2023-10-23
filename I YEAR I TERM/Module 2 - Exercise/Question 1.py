@@ -1,3 +1,5 @@
+# Write the python code for the following compound proposition:
+
 # Define the boolean variables p, q, and r
 p = True
 q = False
