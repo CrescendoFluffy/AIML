@@ -6,11 +6,13 @@
 from sympy import symbols, Implies, And, Not, simplify_logic
 
 # Define symbolic variables
-sachin_hits_century = symbols('Sachin_hits_century')
-sachin_gets_free_car = symbols('Sachin_gets_free_car')
+sachin_hits_century = symbols("Sachin_hits_century")
+sachin_gets_free_car = symbols("Sachin_gets_free_car")
 
 # Define the premises and conclusion
-premise1 = Implies(sachin_hits_century, sachin_gets_free_car)  # If Sachin hits a century, he gets a free car
+premise1 = Implies(
+    sachin_hits_century, sachin_gets_free_car
+)  # If Sachin hits a century, he gets a free car
 premise2 = sachin_hits_century  # Sachin hits a century
 conclusion = sachin_gets_free_car  # Sachin gets a free car
 

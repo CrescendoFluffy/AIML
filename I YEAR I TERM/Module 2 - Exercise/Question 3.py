@@ -6,9 +6,9 @@
 from sympy import symbols, Implies, And, Not, simplify_logic
 
 # Define symbolic variables
-S = symbols('S')  # I study
-F = symbols('F')  # I fail in the exam
-C = symbols('C')  # My father gifts a car to me
+S = symbols("S")  # I study
+F = symbols("F")  # I fail in the exam
+C = symbols("C")  # My father gifts a car to me
 
 # Define the premises and conclusion
 premise1 = Implies(S, Not(F))  # S → ¬F
@@ -21,4 +21,6 @@ validity = simplify_logic(And(premise1, premise2, Not(conclusion)))
 if validity:
     print("The argument is valid. If I study, my father gifts me a car.")
 else:
-    print("The argument is not valid. If I study, it does not guarantee my father gifts me a car.")
+    print(
+        "The argument is not valid. If I study, it does not guarantee my father gifts me a car."
+    )
