@@ -1,4 +1,4 @@
-# 2) a) Using laws of logics simplify the following networks shown in bel and �nd the Truth values by python
+# 2) b) Using laws of logics simplify the following networks shown in bel and �nd the Truth values by python
 
 from sympy.logic.boolalg import Or, And, Not, Equivalent
 
