@@ -6,4 +6,4 @@
 
 ## Authors
 
-- [@Aditya Krishnamurthy AIML A](https://github.com/CrescendoFluffy)
+- [@CrescendoFluffy](https://github.com/CrescendoFluffy)
